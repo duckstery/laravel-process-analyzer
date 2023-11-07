@@ -1,5 +1,5 @@
 {
-  "name": "vendor_name/laravel-process-analyzer",
+  "name": "duckstery/laravel-process-analyzer",
   "description": "process-analyzer integration for Laravel",
   "minimum-stability": "dev",
   "license": "MIT",
