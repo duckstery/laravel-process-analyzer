@@ -5,6 +5,7 @@ namespace Duckstery\Laravel\Analyzer\Middleware;
 use Closure;
 use Duckstery\Analyzer\Analyzer;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpFoundation\Response;
 
 class FlushAnalyzer

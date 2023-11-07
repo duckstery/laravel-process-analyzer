@@ -5,7 +5,6 @@ namespace Duckstery\Laravel\Analyzer;
 use Duckstery\Laravel\Analyzer\Middleware\FlushAnalyzer;
 use Duckstery\Laravel\Analyzer\Middleware\InitAnalyzer;
 use Illuminate\Contracts\Http\Kernel;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
 
 class ProcessAnalyzerServiceProvider extends ServiceProvider
@@ -25,7 +24,6 @@ class ProcessAnalyzerServiceProvider extends ServiceProvider
     {
         $this->bootConfig();
         $this->bootMiddleware();
-        $this->bootStorage();
     }
 
     /**
@@ -50,22 +48,5 @@ class ProcessAnalyzerServiceProvider extends ServiceProvider
         $kernel = $this->app[Kernel::class];
         $kernel->pushMiddleware(InitAnalyzer::class);
         $kernel->pushMiddleware(FlushAnalyzer::class);
-    }
-
-    /**
-     * Booth storage
-     *
-     * @return void
-     */
-    protected function bootStorage(): void
-    {
-        if (!function_exists('storage_path')) return;
-
-        // Get path
-        $path = storage_path('analyzer');
-        if (!Storage::exists($path)) {
-            // Check if directory exist
-            Storage::createDirectory($path);
-        }
     }
 }
