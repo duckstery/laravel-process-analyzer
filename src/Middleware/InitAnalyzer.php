@@ -18,9 +18,11 @@ class InitAnalyzer
     public function handle(Request $request, Closure $next): Response
     {
         // Init analyzer
-        if (is_null(Analyzer::config())) {
+        if (!(Analyzer::config() instanceof LaravelAnalyzerConfig)) {
             Analyzer::tryToInit(new LaravelAnalyzerConfig());
         }
+        // Clear analyzer
+        Analyzer::clear();
 
         return $next($request);
     }

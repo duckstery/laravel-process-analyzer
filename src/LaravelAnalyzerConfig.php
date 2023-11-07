@@ -93,7 +93,7 @@ class LaravelAnalyzerConfig extends AnalyzerConfig
 
     public function timeFormatter(float $value): string
     {
-        return config('process-analyzer.timeFormatter');
+        return config('process-analyzer.timeFormatter') ?? parent::timeFormatter($value);
     }
 
     public function memUnit(): string
@@ -103,7 +103,7 @@ class LaravelAnalyzerConfig extends AnalyzerConfig
 
     public function memFormatter(int $value): string
     {
-        return config('process-analyzer.memFormatter');
+        return config('process-analyzer.memFormatter') ?? parent::memFormatter($value);
     }
 
     public function topLeftChar(): string
