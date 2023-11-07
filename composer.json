@@ -19,7 +19,7 @@
   "homepage": "https://github.com/duckster2506/process-analyzer",
   "require": {
     "php": ">=8.0",
-    "duckstery/process-analyzer": "0.0.3_alpha",
+    "duckstery/process-analyzer": "0.0.4_alpha",
     "illuminate/routing": "^9|^10",
     "illuminate/support": "^9|^10"
   },
