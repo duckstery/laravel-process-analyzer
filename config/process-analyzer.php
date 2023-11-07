@@ -158,7 +158,7 @@ return [
     |
     */
 
-    'useFile' => storage_path('app'),
+    'useFile' => storage_path('logs' . DIRECTORY_SEPARATOR . 'analyzer'),
 
     /*
     |--------------------------------------------------------------------------
