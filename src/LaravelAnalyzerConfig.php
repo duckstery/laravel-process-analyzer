@@ -1,6 +1,6 @@
 <?php
 
-use Duckster\Analyzer\AnalyzerConfig;
+use Duckstery\Analyzer\AnalyzerConfig;
 
 class LaravelAnalyzerConfig extends AnalyzerConfig
 {

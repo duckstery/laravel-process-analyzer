@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5590447b71d8b073be57068a44e0903e",
+    "content-hash": "bba41432ee26b0778cb0105077e000d6",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -169,16 +169,16 @@
         },
         {
             "name": "duckstery/process-analyzer",
-            "version": "1.0.0",
+            "version": "0.0.2_alpha",
             "source": {
                 "type": "git",
                 "url": "https://github.com/duckstery/process-analyzer.git",
-                "reference": "e99d013af8aa9379989b4927576408becbf3da3e"
+                "reference": "f6aafe12179e175b2c5ca799357b1996da0379fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/e99d013af8aa9379989b4927576408becbf3da3e",
-                "reference": "e99d013af8aa9379989b4927576408becbf3da3e",
+                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/f6aafe12179e175b2c5ca799357b1996da0379fd",
+                "reference": "f6aafe12179e175b2c5ca799357b1996da0379fd",
                 "shasum": ""
             },
             "require": {
@@ -192,7 +192,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Duckster\\Analyzer\\": "src"
+                    "Duckstery\\Analyzer\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -215,9 +215,9 @@
             ],
             "support": {
                 "issues": "https://github.com/duckstery/process-analyzer/issues",
-                "source": "https://github.com/duckstery/process-analyzer/tree/1.0.0"
+                "source": "https://github.com/duckstery/process-analyzer/tree/0.0.2_alpha"
             },
-            "time": "2023-11-03T09:28:41+00:00"
+            "time": "2023-11-07T06:06:29+00:00"
         },
         {
             "name": "fruitcake/php-cors",

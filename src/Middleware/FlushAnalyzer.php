@@ -3,7 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Duckster\Analyzer\Analyzer;
+use Duckstery\Analyzer\Analyzer;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 

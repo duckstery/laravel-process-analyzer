@@ -19,24 +19,24 @@
   "homepage": "https://github.com/duckster2506/process-analyzer",
   "require": {
     "php": ">=8.0",
-    "duckstery/process-analyzer": "^1.0.0",
+    "duckstery/process-analyzer": "0.0.2_alpha",
     "illuminate/routing": "^9|^10",
     "illuminate/support": "^9|^10"
   },
   "autoload": {
     "psr-4": {
-      "Duckster\\Laravel\\Analyzer\\": "src"
+      "Duckstery\\Laravel\\Analyzer\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Duckster\\Laravel\\Analyzer\\Tests\\": "tests"
+      "Duckstery\\Laravel\\Analyzer\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Duckster\\Laravel\\Analyzer\\ProcessAnalyzerServiceProvider"
+        "Duckstery\\Laravel\\Analyzer\\ProcessAnalyzerServiceProvider"
       ]
     }
   }
