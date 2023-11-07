@@ -106,7 +106,7 @@ return [
     |
     */
 
-    'printer' => \Duckstery\Analyzer\AnalysisPrinter::class,
+    'printer' => \Duckstery\Laravel\Analyzer\LaravelAnalysisPrinter::class,
 
     /*
     |--------------------------------------------------------------------------
