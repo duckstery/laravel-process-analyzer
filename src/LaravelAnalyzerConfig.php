@@ -53,7 +53,7 @@ class LaravelAnalyzerConfig extends AnalyzerConfig
 
     public function showUID(): bool
     {
-        return config('process-analyzer.showUID');
+        return config('process-analyzer.showUid');
     }
 
     public function useFile(): string|false
