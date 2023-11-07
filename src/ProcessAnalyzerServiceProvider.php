@@ -1,8 +1,9 @@
 <?php
 
+namespace Duckstery\Laravel\Analyzer;
 
-use App\Http\Middleware\FlushAnalyzer;
-use App\Http\Middleware\InitAnalyzer;
+use Duckstery\Laravel\Analyzer\Middleware\FlushAnalyzer;
+use Duckstery\Laravel\Analyzer\Middleware\InitAnalyzer;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;

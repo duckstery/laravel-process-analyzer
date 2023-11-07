@@ -1,5 +1,7 @@
 <?php
 
+namespace Duckstery\Laravel\Analyzer;
+
 use Duckstery\Analyzer\AnalyzerConfig;
 
 class LaravelAnalyzerConfig extends AnalyzerConfig

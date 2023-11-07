@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Duckstery\Laravel\Analyzer\Middleware;
 
 use Closure;
 use Duckstery\Analyzer\Analyzer;
 use Illuminate\Http\Request;
-use LaravelAnalyzerConfig;
+use Duckstery\Laravel\Analyzer\LaravelAnalyzerConfig;
 use Symfony\Component\HttpFoundation\Response;
 
 class InitAnalyzer

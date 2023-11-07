@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Duckstery\Laravel\Analyzer\Middleware;
 
 use Closure;
 use Duckstery\Analyzer\Analyzer;
