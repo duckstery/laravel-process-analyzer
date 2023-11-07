@@ -1,0 +1,43 @@
+{
+  "name": "vendor_name/laravel-process-analyzer",
+  "description": "process-analyzer integration for Laravel",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "keywords": [
+    "duckster2506",
+    "analyzer",
+    "process",
+    "process-analyzer",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "duckstery",
+      "email": "ducdao2506@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/duckster2506/process-analyzer",
+  "require": {
+    "php": ">=8.0",
+    "duckstery/process-analyzer": "^1.0.0",
+    "illuminate/routing": "^9|^10",
+    "illuminate/support": "^9|^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Duckster\\Laravel\\Analyzer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Duckster\\Laravel\\Analyzer\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Duckster\\Analyzer\\ProcessAnalyzerServiceProvider"
+      ]
+    }
+  }
+}
