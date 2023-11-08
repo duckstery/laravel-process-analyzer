@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2b2ea70230f498542e24c2c558bb7c0",
+    "content-hash": "6d26b5c2022852468fd1d8f15b07a124",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -169,16 +169,16 @@
         },
         {
             "name": "duckstery/process-analyzer",
-            "version": "0.0.4_alpha",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/duckstery/process-analyzer.git",
-                "reference": "e4a9604f8de07dfe6064dedf24ca881181207fcd"
+                "reference": "9e0643aceb5df90131c63fdd1386e7cda91df82c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/e4a9604f8de07dfe6064dedf24ca881181207fcd",
-                "reference": "e4a9604f8de07dfe6064dedf24ca881181207fcd",
+                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/9e0643aceb5df90131c63fdd1386e7cda91df82c",
+                "reference": "9e0643aceb5df90131c63fdd1386e7cda91df82c",
                 "shasum": ""
             },
             "require": {
@@ -206,7 +206,7 @@
                 }
             ],
             "description": "Dependency free process analyzer for PHP",
-            "homepage": "https://github.com/duckster2506/process-analyzer",
+            "homepage": "https://github.com/duckstery/process-analyzer",
             "keywords": [
                 "analyzer",
                 "duckstery",
@@ -215,9 +215,9 @@
             ],
             "support": {
                 "issues": "https://github.com/duckstery/process-analyzer/issues",
-                "source": "https://github.com/duckstery/process-analyzer/tree/0.0.4_alpha"
+                "source": "https://github.com/duckstery/process-analyzer/tree/1.0.0"
             },
-            "time": "2023-11-07T08:13:43+00:00"
+            "time": "2023-11-08T08:53:19+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -577,12 +577,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "8f355f9e281a4219671be0a82195f49153b1bced"
+                "reference": "4dff993a0d2f4f9861b1b834dac878b0ac8ddab6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/8f355f9e281a4219671be0a82195f49153b1bced",
-                "reference": "8f355f9e281a4219671be0a82195f49153b1bced",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/4dff993a0d2f4f9861b1b834dac878b0ac8ddab6",
+                "reference": "4dff993a0d2f4f9861b1b834dac878b0ac8ddab6",
                 "shasum": ""
             },
             "require": {
@@ -633,7 +633,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-09-15T22:35:37+00:00"
+            "time": "2023-11-07T13:10:29+00:00"
         },
         {
             "name": "illuminate/http",
@@ -641,12 +641,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "92536dc52a0e56904cc19699ff906addff870762"
+                "reference": "066f5ad5bf97a36f116657db814f0e6efd092785"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/92536dc52a0e56904cc19699ff906addff870762",
-                "reference": "92536dc52a0e56904cc19699ff906addff870762",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/066f5ad5bf97a36f116657db814f0e6efd092785",
+                "reference": "066f5ad5bf97a36f116657db814f0e6efd092785",
                 "shasum": ""
             },
             "require": {
@@ -693,7 +693,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-11-06T21:49:50+00:00"
+            "time": "2023-11-07T16:24:32+00:00"
         },
         {
             "name": "illuminate/macroable",
@@ -1717,12 +1717,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "59e265807eb5d8964e8db2267ff2df8d32aa6e95"
+                "reference": "e0905cd41cb5b8fec3c9cb59ea6cc032c8ba0e09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/59e265807eb5d8964e8db2267ff2df8d32aa6e95",
-                "reference": "59e265807eb5d8964e8db2267ff2df8d32aa6e95",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/e0905cd41cb5b8fec3c9cb59ea6cc032c8ba0e09",
+                "reference": "e0905cd41cb5b8fec3c9cb59ea6cc032c8ba0e09",
                 "shasum": ""
             },
             "require": {
@@ -1786,7 +1786,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-02T20:44:50+00:00"
+            "time": "2023-11-07T15:07:26+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -1794,12 +1794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "f6366804fc2779994978f8e3e33c4d7360d3673e"
+                "reference": "8c25056827fcf7ba51cc960cf94e796097852c52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/f6366804fc2779994978f8e3e33c4d7360d3673e",
-                "reference": "f6366804fc2779994978f8e3e33c4d7360d3673e",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/8c25056827fcf7ba51cc960cf94e796097852c52",
+                "reference": "8c25056827fcf7ba51cc960cf94e796097852c52",
                 "shasum": ""
             },
             "require": {
@@ -1899,7 +1899,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-06T11:00:25+00:00"
+            "time": "2023-11-07T15:05:05+00:00"
         },
         {
             "name": "symfony/mime",

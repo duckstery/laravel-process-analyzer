@@ -2,7 +2,7 @@
 
 namespace Duckstery\Laravel\Analyzer;
 
-use Duckstery\Analyzer\AnalyzerConfig;
+use Duckster\Analyzer\AnalyzerConfig;
 
 class LaravelAnalyzerConfig extends AnalyzerConfig
 {
@@ -93,7 +93,8 @@ class LaravelAnalyzerConfig extends AnalyzerConfig
 
     public function timeFormatter(float $value): string
     {
-        return config('process-analyzer.timeFormatter') ?? parent::timeFormatter($value);
+        $this->timeFormatter = config('process-analyzer.timeFormatter');
+        return parent::timeFormatter($value);
     }
 
     public function memUnit(): string
@@ -103,7 +104,8 @@ class LaravelAnalyzerConfig extends AnalyzerConfig
 
     public function memFormatter(int $value): string
     {
-        return config('process-analyzer.memFormatter') ?? parent::memFormatter($value);
+        $this->memFormatter = config('process-analyzer.memFormatter');
+        return  parent::memFormatter($value);
     }
 
     public function topLeftChar(): string

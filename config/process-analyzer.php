@@ -58,7 +58,7 @@ return [
         "Default" => [
             "peak" => [
                 "handler" => "memory_get_peak_usage",
-                "formatter" => [\Duckstery\Analyzer\Utils::class, "appendB"],
+                "formatter" => [Duckstery\Analyzer\Utils::class, "appendB"],
                 // Get extras before starting
                 "start" => true,
                 // Get extras before stopping
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'profile' => \Duckstery\Analyzer\Structures\AnalysisProfile::class,
+    'profile' => Duckstery\Analyzer\Structures\AnalysisProfile::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'record' => \Duckstery\Analyzer\Structures\AnalysisRecord::class,
+    'record' => Duckstery\Analyzer\Structures\AnalysisRecord::class,
 
     /*
     |--------------------------------------------------------------------------
@@ -106,7 +106,7 @@ return [
     |
     */
 
-    'printer' => \Duckstery\Laravel\Analyzer\LaravelAnalysisPrinter::class,
+    'printer' => Duckstery\Laravel\Analyzer\LaravelAnalysisPrinter::class,
 
     /*
     |--------------------------------------------------------------------------

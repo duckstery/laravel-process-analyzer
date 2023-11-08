@@ -4,11 +4,12 @@
   "minimum-stability": "dev",
   "license": "MIT",
   "keywords": [
-    "duckster2506",
+    "duckstery",
     "analyzer",
     "process",
     "process-analyzer",
-    "laravel"
+    "laravel",
+    "laravel-process-analyzer"
   ],
   "authors": [
     {
@@ -16,21 +17,16 @@
       "email": "ducdao2506@gmail.com"
     }
   ],
-  "homepage": "https://github.com/duckster2506/process-analyzer",
+  "homepage": "https://github.com/duckstery/process-analyzer",
   "require": {
     "php": ">=8.0",
-    "duckstery/process-analyzer": "0.0.4_alpha",
+    "duckstery/process-analyzer": "1.0.0",
     "illuminate/routing": "^9|^10",
     "illuminate/support": "^9|^10"
   },
   "autoload": {
     "psr-4": {
       "Duckstery\\Laravel\\Analyzer\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Duckstery\\Laravel\\Analyzer\\Tests\\": "tests"
     }
   },
   "extra": {
