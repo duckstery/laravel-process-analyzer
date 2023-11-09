@@ -20,7 +20,7 @@
   "homepage": "https://github.com/duckstery/process-analyzer",
   "require": {
     "php": ">=8.0",
-    "duckstery/process-analyzer": "1.0.1",
+    "duckstery/process-analyzer": "1.0.2",
     "illuminate/routing": "^9|^10",
     "illuminate/support": "^9|^10"
   },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3939d5f15af5444ee8562d17eb0516aa",
+    "content-hash": "ba62f7197463ef5fc0452f7137a5f77d",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -169,16 +169,16 @@
         },
         {
             "name": "duckstery/process-analyzer",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/duckstery/process-analyzer.git",
-                "reference": "5eaa9ad7cbaa48b70a77f8806582ebacf9461a0a"
+                "reference": "a48f19dce85da02074d9bd09956b28fa6915ac97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/5eaa9ad7cbaa48b70a77f8806582ebacf9461a0a",
-                "reference": "5eaa9ad7cbaa48b70a77f8806582ebacf9461a0a",
+                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/a48f19dce85da02074d9bd09956b28fa6915ac97",
+                "reference": "a48f19dce85da02074d9bd09956b28fa6915ac97",
                 "shasum": ""
             },
             "require": {
@@ -215,9 +215,9 @@
             ],
             "support": {
                 "issues": "https://github.com/duckstery/process-analyzer/issues",
-                "source": "https://github.com/duckstery/process-analyzer/tree/1.0.1"
+                "source": "https://github.com/duckstery/process-analyzer/tree/1.0.2"
             },
-            "time": "2023-11-09T07:55:44+00:00"
+            "time": "2023-11-09T08:26:21+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1794,12 +1794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "8c25056827fcf7ba51cc960cf94e796097852c52"
+                "reference": "4c12888005812f3ae26d0252b855fc4956275ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/8c25056827fcf7ba51cc960cf94e796097852c52",
-                "reference": "8c25056827fcf7ba51cc960cf94e796097852c52",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/4c12888005812f3ae26d0252b855fc4956275ae8",
+                "reference": "4c12888005812f3ae26d0252b855fc4956275ae8",
                 "shasum": ""
             },
             "require": {
@@ -1899,7 +1899,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-07T15:05:05+00:00"
+            "time": "2023-11-09T08:17:37+00:00"
         },
         {
             "name": "symfony/mime",

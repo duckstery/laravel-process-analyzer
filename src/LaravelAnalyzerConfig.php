@@ -105,7 +105,7 @@ class LaravelAnalyzerConfig extends AnalyzerConfig
     public function memFormatter(int $value): string
     {
         $this->memFormatter = config('process-analyzer.memFormatter');
-        return  parent::memFormatter($value);
+        return parent::memFormatter($value);
     }
 
     public function topLeftChar(): string
