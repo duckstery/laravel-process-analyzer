@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d26b5c2022852468fd1d8f15b07a124",
+    "content-hash": "3939d5f15af5444ee8562d17eb0516aa",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -169,16 +169,16 @@
         },
         {
             "name": "duckstery/process-analyzer",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/duckstery/process-analyzer.git",
-                "reference": "406c313277f8efaefd7279b95d7da3ef394da2fa"
+                "reference": "5eaa9ad7cbaa48b70a77f8806582ebacf9461a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/406c313277f8efaefd7279b95d7da3ef394da2fa",
-                "reference": "406c313277f8efaefd7279b95d7da3ef394da2fa",
+                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/5eaa9ad7cbaa48b70a77f8806582ebacf9461a0a",
+                "reference": "5eaa9ad7cbaa48b70a77f8806582ebacf9461a0a",
                 "shasum": ""
             },
             "require": {
@@ -215,9 +215,9 @@
             ],
             "support": {
                 "issues": "https://github.com/duckstery/process-analyzer/issues",
-                "source": "https://github.com/duckstery/process-analyzer/tree/1.0.0"
+                "source": "https://github.com/duckstery/process-analyzer/tree/1.0.1"
             },
-            "time": "2023-11-09T02:31:00+00:00"
+            "time": "2023-11-09T07:55:44+00:00"
         },
         {
             "name": "fruitcake/php-cors",
