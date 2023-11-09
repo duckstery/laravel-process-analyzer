@@ -173,12 +173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duckstery/process-analyzer.git",
-                "reference": "9ed999ef3569061dd069cdf8300e63e1cb6c3b46"
+                "reference": "406c313277f8efaefd7279b95d7da3ef394da2fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/9ed999ef3569061dd069cdf8300e63e1cb6c3b46",
-                "reference": "9ed999ef3569061dd069cdf8300e63e1cb6c3b46",
+                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/406c313277f8efaefd7279b95d7da3ef394da2fa",
+                "reference": "406c313277f8efaefd7279b95d7da3ef394da2fa",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "issues": "https://github.com/duckstery/process-analyzer/issues",
                 "source": "https://github.com/duckstery/process-analyzer/tree/1.0.0"
             },
-            "time": "2023-11-09T02:25:03+00:00"
+            "time": "2023-11-09T02:31:00+00:00"
         },
         {
             "name": "fruitcake/php-cors",
