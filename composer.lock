@@ -173,12 +173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/duckstery/process-analyzer.git",
-                "reference": "9e0643aceb5df90131c63fdd1386e7cda91df82c"
+                "reference": "f00f5b1a4209fccc3613c633e4b36d631c2713e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/9e0643aceb5df90131c63fdd1386e7cda91df82c",
-                "reference": "9e0643aceb5df90131c63fdd1386e7cda91df82c",
+                "url": "https://api.github.com/repos/duckstery/process-analyzer/zipball/f00f5b1a4209fccc3613c633e4b36d631c2713e8",
+                "reference": "f00f5b1a4209fccc3613c633e4b36d631c2713e8",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "issues": "https://github.com/duckstery/process-analyzer/issues",
                 "source": "https://github.com/duckstery/process-analyzer/tree/1.0.0"
             },
-            "time": "2023-11-08T08:53:19+00:00"
+            "time": "2023-11-09T01:43:55+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -577,12 +577,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "4dff993a0d2f4f9861b1b834dac878b0ac8ddab6"
+                "reference": "8a412afd1b56f762aafe2747d5e2b79267f97436"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/4dff993a0d2f4f9861b1b834dac878b0ac8ddab6",
-                "reference": "4dff993a0d2f4f9861b1b834dac878b0ac8ddab6",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/8a412afd1b56f762aafe2747d5e2b79267f97436",
+                "reference": "8a412afd1b56f762aafe2747d5e2b79267f97436",
                 "shasum": ""
             },
             "require": {
@@ -633,7 +633,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-11-07T13:10:29+00:00"
+            "time": "2023-11-08T14:19:58+00:00"
         },
         {
             "name": "illuminate/http",
@@ -641,12 +641,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "066f5ad5bf97a36f116657db814f0e6efd092785"
+                "reference": "38a996d2cf4c53d30f49cb2eff8afa33f7e37f28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/066f5ad5bf97a36f116657db814f0e6efd092785",
-                "reference": "066f5ad5bf97a36f116657db814f0e6efd092785",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/38a996d2cf4c53d30f49cb2eff8afa33f7e37f28",
+                "reference": "38a996d2cf4c53d30f49cb2eff8afa33f7e37f28",
                 "shasum": ""
             },
             "require": {
@@ -693,7 +693,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-11-07T16:24:32+00:00"
+            "time": "2023-11-08T18:13:32+00:00"
         },
         {
             "name": "illuminate/macroable",
@@ -916,12 +916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "7c28b263a170e3c402f29c964fa0e8da17b2f832"
+                "reference": "e1d8f5fabcee9623b5d6eb4de78f0120522fd1b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/7c28b263a170e3c402f29c964fa0e8da17b2f832",
-                "reference": "7c28b263a170e3c402f29c964fa0e8da17b2f832",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/e1d8f5fabcee9623b5d6eb4de78f0120522fd1b5",
+                "reference": "e1d8f5fabcee9623b5d6eb4de78f0120522fd1b5",
                 "shasum": ""
             },
             "require": {
@@ -979,7 +979,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-11-03T13:09:12+00:00"
+            "time": "2023-11-08T18:14:03+00:00"
         },
         {
             "name": "nesbot/carbon",
